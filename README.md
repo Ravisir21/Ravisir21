@@ -32,7 +32,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ravisir21)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/shree_raviprakash)
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=white)](#)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:myoffice1212.@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:myoffice1212.0@gmail.com)
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
@@ -219,22 +219,22 @@ Learning:
 
 ## 📊 GitHub Statistics
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ravisir21&custom_title=Raviprakash's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=00FFFF&line=00FFFF&point=FFFFFF&area_color=0D1117&title_color=00FFFF&area=true" alt="GitHub Activity Graph" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ravisir21&custom_title=Raviprakash's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=00FFFF&line=00FFFF&point=FFFFFF&area_color=0D1117&title_color=00FFFF&area=true&hide_border=true" alt="GitHub Activity Graph" width="100%"/>
 
 <br/>
 
 <table align="center" width="100%">
   <tr>
     <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=Ravisir21&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&icon_color=00FFFF" alt="GitHub Stats" width="100%"/>
+      <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Ravisir21&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&icon_color=00FFFF&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%"/>
     </td>
     <td align="center" width="50%">
-      <img src="https://nirzak-streak-stats.vercel.app/?user=Ravisir21&theme=radical&hide_border=true&background=0D1117&stroke=00FFFF&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF" alt="GitHub Streak" width="100%"/>
+      <img src="https://streak-stats.demolab.com/?user=Ravisir21&theme=tokyonight&hide_border=true&background=0D1117&stroke=00FFFF&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF&sideLabels=00FFFF" alt="GitHub Streak" width="100%"/>
     </td>
   </tr>
 </table>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ravisir21&theme=radical&hide_border=true&include_all_commits=true&count_private=true&layout=compact&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF" alt="Top Languages" width="50%"/>
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Ravisir21&theme=tokyonight&hide_border=true&layout=compact&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&langs_count=8&hide=html,css" alt="Top Languages" width="50%"/>
 
 <br/><br/>
 
@@ -244,7 +244,7 @@ Learning:
 <br/>
 
 ### 📈 Contribution Graph
-![](https://github-contributor-stats.vercel.app/api?username=Ravisir21&limit=5&theme=tokyonight&combine_all_yearly_contributions=true)
+![](https://github-readme-activity-graph.vercel.app/graph?username=Ravisir21&custom_title=Contribution%20Graph&bg_color=0D1117&color=00FFFF&line=00FFFF&point=FFFFFF&area_color=0D1117&title_color=00FFFF&area=true&hide_border=true)
 
 <br/>
 
