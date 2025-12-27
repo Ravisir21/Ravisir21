@@ -1,5 +1,33 @@
-# 💫 About Me:
-## About Me<br><br>🔭 I’m currently working on AI/ML projects and full-stack applications — from semantic RAG systems to scalable web dashboards.  <br>👯 I’m looking to collaborate on open-source AI tools, fintech platforms, and creative coding projects.  <br>🤝 I’m looking for help with deploying advanced AI microservices and optimizing backend workflows.  <br>🌱 I’m currently learning advanced LLM Ops, algorithmic trading strategies, and secure PHP backend auditing.  <br>💬 Ask me about AI/ML engineering, full-stack development, prompt engineering, or building scalable cloud apps.  <br>⚡ Fun fact: I love blending technical depth with creative UI/UX — whether it’s a trading bot or an artist’s portfolio!<br>
+# 💫 About Me  
+
+Hi, I’m **Raviprakash Mishra** — an **AI/ML Engineer & Full-Stack Developer** passionate about building intelligent, scalable, and user-friendly systems. I thrive at the intersection of **deep learning, generative AI, and modern web development**, blending technical depth with creative design.  
+
+---
+
+### 🚀 What I’m Working On  
+- Cutting-edge **AI/ML projects** — from semantic RAG systems to algorithmic trading solutions  
+- Scalable **full-stack applications** with React.js, Next.js, and cloud deployments  
+- Creative coding projects that merge **UI/UX design** with technical innovation  
+
+### 🤝 Collaboration Goals  
+- Open-source AI tools & frameworks  
+- Fintech platforms and experimental web systems  
+- Creative coding & design-driven applications  
+
+### 🌱 Currently Exploring  
+- Advanced **LLM Ops** and prompt engineering  
+- **Algorithmic trading strategies** powered by ML  
+- Secure backend auditing with PHP & modern databases  
+
+### 💬 Ask Me About  
+- AI/ML engineering & model deployment  
+- Full-stack development (React, Next.js, FastAPI, Flask)  
+- Prompt engineering & generative AI workflows  
+- Building scalable cloud-native applications  
+
+### ⚡ Fun Fact  
+I love combining **technical rigor with creative UI/UX** — whether it’s designing a trading bot dashboard or crafting an artist’s portfolio site.  
+
 
 
 ## 🌐 Socials:
