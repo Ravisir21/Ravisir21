@@ -226,15 +226,19 @@ Learning:
 <table align="center" width="100%">
   <tr>
     <td align="center" width="50%">
-      <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Ravisir21&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&icon_color=00FFFF&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%"/>
+      <img src="https://github-readme-stats.vercel.app/api?username=Ravisir21&show_icons=true&theme=algolia&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats" width="100%"/>
     </td>
     <td align="center" width="50%">
-      <img src="https://streak-stats.demolab.com/?user=Ravisir21&theme=tokyonight&hide_border=true&background=0D1117&stroke=00FFFF&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF&sideLabels=00FFFF" alt="GitHub Streak" width="100%"/>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ravisir21&theme=algolia&hide_border=false" alt="GitHub Streak" width="100%"/>
     </td>
   </tr>
 </table>
 
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Ravisir21&theme=tokyonight&hide_border=true&layout=compact&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&langs_count=8&hide=html,css" alt="Top Languages" width="50%"/>
+<br/>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ravisir21&theme=algolia&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" width="45%"/>
+</p>
 
 <br/><br/>
 
