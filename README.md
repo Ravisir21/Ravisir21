@@ -224,8 +224,6 @@ Learning:
 
 <br/>
 
-### 📈 Contribution Graph
-![](https://github-readme-activity-graph.vercel.app/graph?username=Ravisir21&custom_title=Contribution%20Graph&bg_color=0D1117&color=00FFFF&line=00FFFF&point=FFFFFF&area_color=0D1117&title_color=00FFFF&area=true&hide_border=true)
 
 <br/>
 
