@@ -1,8 +1,3 @@
-Here is the full, polished, and bug-fixed **README.md** code. I have optimized the layout for both mobile and desktop, fixed the broken badge links, and grouped your technical skills for a more professional look.
-
-**Note:** I have set the portfolio link to a placeholder; you can change `https://your-portfolio-link.com` to your actual URL.
-
-```markdown
 <div align="center">
 
 # 💫 Hi, I'm Raviprakash Mishra
