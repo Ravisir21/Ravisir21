@@ -1,231 +1,529 @@
-# 🚀 Raviprakash Mishra  
-**AI/ML Engineer & Full-Stack Developer**  
-*Building intelligent systems at the intersection of deep learning, generative AI, and modern web development*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raviprakash Mishra - AI/ML Engineer & Full-Stack Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
----
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #0f1419 100%);
+            color: #e6e6e6;
+            overflow-x: hidden;
+        }
 
-## ✨ Dynamic Profile Overview
+        .stars {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+        }
 
-![Profile Banner](https://github-readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=800&lines=Welcome+to+my+digital+workspace!;AI+Engineer+×+Full-Stack+Developer;Specialized+in+Generative+AI+%26+LLM+Ops;Building+Scalable+Cloud-Native+Solutions)
+        .star {
+            position: absolute;
+            background: white;
+            border-radius: 50%;
+            animation: twinkle 3s infinite;
+        }
 
-<div align="center">
-  
-![AI Brain Animation](https://raw.githubusercontent.com/marcosecchi/marcosecchi/master/assets/brain.gif) | ![Code Animation](https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/gifs/code.gif)
-:---:|:---:
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
+        }
 
-</div>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            position: relative;
+            z-index: 1;
+        }
 
----
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            position: relative;
+            overflow: hidden;
+        }
 
-## 🎯 **Professional Focus Areas**
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(0, 255, 255, 0.1) 0%, transparent 70%);
+            animation: pulse 4s ease-in-out infinite;
+        }
 
-<table align="center">
-  <tr>
-    <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/gifs/developer.gif" width="80">
-      <br>
-      <b>AI/ML Engineering</b>
-      <br>
-      <sub>LLMs • RAG • Computer Vision</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/gifs/designer.gif" width="80">
-      <br>
-      <b>Full-Stack Development</b>
-      <br>
-      <sub>React • Next.js • Cloud Native</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/gifs/rocket.gif" width="80">
-      <br>
-      <b>Generative AI</b>
-      <br>
-      <sub>Prompt Engineering • LLM Ops</sub>
-    </td>
-  </tr>
-</table>
+        @keyframes pulse {
+            0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.5; }
+            50% { transform: translate(-50%, -50%) scale(1.2); opacity: 0.8; }
+        }
 
----
+        .hero h1 {
+            font-size: 4em;
+            font-weight: 900;
+            background: linear-gradient(135deg, #00ffff 0%, #00d4ff 50%, #0099ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+            animation: slideDown 1s ease-out;
+            text-shadow: 0 0 40px rgba(0, 255, 255, 0.3);
+        }
 
-## 📊 **Live GitHub Analytics**
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
 
-<div align="center">
+        .hero .subtitle {
+            font-size: 1.8em;
+            color: #00ffff;
+            margin-bottom: 30px;
+            animation: slideUp 1s ease-out 0.3s both;
+            text-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+        }
 
-| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ravisir21&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00D4FF&icon_color=00D4FF&text_color=ffffff) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ravisir21&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00D4FF&text_color=ffffff) |
-| :---: | :---: |
-| ![GitHub Streak](https://streak-stats.demolab.com/?user=Ravisir21&theme=radical&hide_border=true&background=0d1117&stroke=00D4FF&fire=00D4FF&ring=00D4FF&currStreakLabel=00D4FF) | ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Ravisir21&theme=react-dark&bg_color=0d1117&hide_border=true&color=00D4FF&line=00D4FF&point=FFFFFF) |
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
 
-</div>
+        .hero .tagline {
+            font-size: 1.2em;
+            color: #a0a0a0;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            line-height: 1.8;
+            animation: fadeIn 1s ease-out 0.6s both;
+        }
 
----
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
 
-## 🛠 **Technology Ecosystem**
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+            animation: fadeIn 1s ease-out 0.9s both;
+        }
 
-### 🏗️ **Core Development**
-<div align="center">
-  
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=0d1117)
-![Next JS](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white&labelColor=0d1117)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&labelColor=0d1117)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0d1117)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=0d1117)
+        .social-btn {
+            padding: 15px 35px;
+            background: rgba(0, 255, 255, 0.1);
+            border: 2px solid #00ffff;
+            border-radius: 50px;
+            color: #00ffff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
 
-</div>
+        .social-btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(0, 255, 255, 0.3);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
 
-### ☁️ **Cloud & DevOps**
-<div align="center">
+        .social-btn:hover::before {
+            width: 300px;
+            height: 300px;
+        }
 
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white&labelColor=0d1117)
-![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white&labelColor=0d1117)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=0d1117)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white&labelColor=0d1117)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white&labelColor=0d1117)
+        .social-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 255, 255, 0.4);
+        }
 
-</div>
+        .section {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 50px;
+            margin: 40px 0;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            animation: fadeInUp 0.8s ease-out both;
+        }
 
-### 🤖 **AI/ML Stack**
-<div align="center">
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=0d1117)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=0d1117)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white&labelColor=0d1117)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white&labelColor=0d1117)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black&labelColor=0d1117)
+        .section:nth-child(even) {
+            animation-delay: 0.2s;
+        }
 
-</div>
+        .section h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            background: linear-gradient(135deg, #00ffff 0%, #ffffff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: inline-block;
+            position: relative;
+        }
 
----
+        .section h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, #00ffff 0%, transparent 100%);
+            animation: expand 1s ease-out;
+        }
 
-## 📈 **Current Projects & Focus**
+        @keyframes expand {
+            from { width: 0; }
+            to { width: 100%; }
+        }
 
-<div align="center">
-  
-```mermaid
-gantt
-    title Project Timeline
-    dateFormat  YYYY-MM-DD
-    section AI/ML Engineering
-    RAG Systems        :active, 2024-01-01, 180d
-    LLM Ops Pipeline   :active, 2024-02-01, 150d
-    section Full-Stack
-    Next.js Applications :active, 2024-01-15, 165d
-    Cloud Deployments    :active, 2024-02-15, 135d
-    section Research
-    Algorithmic Trading  :2024-03-01, 120d
-    Generative AI Tools  :2024-03-15, 105d
-```
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
 
-</div>
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            border-radius: 15px;
+            padding: 30px;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
 
-### 🔥 **Active Development**
-- 🚀 **Semantic RAG Systems** with vector databases and real-time indexing
-- 🌐 **Next.js 14 Applications** with server components and edge runtime
-- ⚡ **AI-Powered Trading Bots** with real-time analytics dashboard
-- 🎨 **Generative UI Components** with dynamic prompt engineering
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 255, 255, 0.1), transparent);
+            transition: left 0.6s;
+        }
 
----
+        .card:hover::before {
+            left: 100%;
+        }
 
-## 🎮 **Interactive Skills Matrix**
+        .card:hover {
+            transform: translateY(-10px);
+            border-color: #00ffff;
+            box-shadow: 0 15px 40px rgba(0, 255, 255, 0.3);
+        }
 
-<table align="center">
-  <tr>
-    <th>Skill</th>
-    <th>Proficiency</th>
-    <th>Visualization</th>
-  </tr>
-  <tr>
-    <td>AI/ML Engineering</td>
-    <td>Expert</td>
-    <td><img src="https://progress-bar.dev/95/?title=&width=200&color=00D4FF" alt="95%"></td>
-  </tr>
-  <tr>
-    <td>Full-Stack Dev</td>
-    <td>Expert</td>
-    <td><img src="https://progress-bar.dev/90/?title=&width=200&color=00D4FF" alt="90%"></td>
-  </tr>
-  <tr>
-    <td>Cloud Architecture</td>
-    <td>Advanced</td>
-    <td><img src="https://progress-bar.dev/85/?title=&width=200&color=00D4FF" alt="85%"></td>
-  </tr>
-  <tr>
-    <td>Generative AI</td>
-    <td>Expert</td>
-    <td><img src="https://progress-bar.dev/92/?title=&width=200&color=00D4FF" alt="92%"></td>
-  </tr>
-  <tr>
-    <td>UI/UX Design</td>
-    <td>Advanced</td>
-    <td><img src="https://progress-bar.dev/80/?title=&width=200&color=00D4FF" alt="80%"></td>
-  </tr>
-</table>
+        .card h3 {
+            color: #00ffff;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
 
----
+        .card p {
+            color: #b0b0b0;
+            line-height: 1.6;
+        }
 
-## 🌟 **Featured Projects**
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 30px;
+        }
 
-<div align="center">
+        .tech-badge {
+            background: rgba(0, 255, 255, 0.1);
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 0.9em;
+            color: #00ffff;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
 
-| Project | Description | Tech Stack | Status |
-|---------|-------------|------------|--------|
-| **AI Trading Platform** | ML-powered algorithmic trading with real-time analytics | Python, FastAPI, React, Redis | 🚀 Live |
-| **Intelligent RAG System** | Semantic search with vector embeddings and LLM integration | LangChain, Pinecone, Next.js | 🔧 Active |
-| **Generative UI Builder** | AI-assisted component generation and design system | OpenAI, Figma API, React | 💡 In Dev |
+        .tech-badge:hover {
+            background: rgba(0, 255, 255, 0.2);
+            transform: scale(1.1);
+            box-shadow: 0 5px 15px rgba(0, 255, 255, 0.4);
+        }
 
-</div>
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
 
----
+        .stat-card {
+            background: linear-gradient(135deg, rgba(0, 255, 255, 0.1) 0%, rgba(0, 100, 255, 0.1) 100%);
+            border: 2px solid rgba(0, 255, 255, 0.3);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
 
-## 📱 **Connect With Me**
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: conic-gradient(from 0deg, transparent, rgba(0, 255, 255, 0.2), transparent 30%);
+            animation: rotate 4s linear infinite;
+        }
 
-<div align="center">
+        @keyframes rotate {
+            100% { transform: rotate(360deg); }
+        }
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2)](https://linkedin.com/in/ravisir21)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github&logoColor=white&labelColor=181717)](https://github.com/Ravisir21)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://your-portfolio.vercel.app)
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335)](mailto:your.email@example.com)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2)](https://twitter.com/yourhandle)
+        .stat-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(0, 255, 255, 0.4);
+        }
 
-</div>
+        .stat-number {
+            font-size: 3em;
+            font-weight: 900;
+            color: #00ffff;
+            position: relative;
+            z-index: 1;
+        }
 
----
+        .stat-label {
+            color: #b0b0b0;
+            margin-top: 10px;
+            position: relative;
+            z-index: 1;
+        }
 
-## 📊 **GitHub Metrics**
+        .floating {
+            animation: float 3s ease-in-out infinite;
+        }
 
-<div align="center">
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
 
-![Metrics](https://github.com/Ravisir21/Ravisir21/blob/main/github-metrics.svg)
+        .gradient-text {
+            background: linear-gradient(135deg, #00ffff 0%, #00d4ff 50%, #0099ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
 
-</div>
+        .glow {
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.5),
+                         0 0 20px rgba(0, 255, 255, 0.3),
+                         0 0 30px rgba(0, 255, 255, 0.2);
+        }
 
----
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5em; }
+            .hero .subtitle { font-size: 1.3em; }
+            .section { padding: 30px 20px; }
+            .social-links { flex-direction: column; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+    <div class="stars" id="stars"></div>
+    
+    <div class="container">
+        <div class="hero">
+            <h1 class="glow">RAVIPRAKASH MISHRA</h1>
+            <div class="subtitle">AI/ML Engineer & Full-Stack Developer</div>
+            <p class="tagline">
+                Building intelligent, scalable systems at the intersection of deep learning, 
+                generative AI, and modern web development. Transforming complex challenges 
+                into elegant, user-friendly solutions.
+            </p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/ravisir21" class="social-btn" target="_blank">
+                    <span style="position: relative; z-index: 1;">LinkedIn</span>
+                </a>
+                <a href="https://instagram.com/shree_raviprakash" class="social-btn" target="_blank">
+                    <span style="position: relative; z-index: 1;">Instagram</span>
+                </a>
+                <a href="https://github.com/Ravisir21" class="social-btn" target="_blank">
+                    <span style="position: relative; z-index: 1;">GitHub</span>
+                </a>
+            </div>
+        </div>
 
-## 🎯 **Quick Stats**
+        <div class="section">
+            <h2>🚀 Current Focus</h2>
+            <div class="grid">
+                <div class="card floating">
+                    <h3>AI/ML Innovation</h3>
+                    <p>Developing cutting-edge semantic RAG systems, algorithmic trading solutions, and enterprise-scale ML models</p>
+                </div>
+                <div class="card floating" style="animation-delay: 0.3s;">
+                    <h3>Full-Stack Development</h3>
+                    <p>Building scalable applications with React.js, Next.js, and cloud-native architectures</p>
+                </div>
+                <div class="card floating" style="animation-delay: 0.6s;">
+                    <h3>Creative Engineering</h3>
+                    <p>Merging technical depth with exceptional UI/UX design for memorable user experiences</p>
+                </div>
+            </div>
+        </div>
 
-<div align="center">
-  
-![Profile Views](https://komarev.com/ghpvc/?username=Ravisir21&color=00D4FF&style=flat-square&label=PROFILE+VIEWS)
-![Repos](https://badges.strrl.dev/repos/Ravisir21?color=00D4FF&style=flat-square)
-![Commits](https://badges.strrl.dev/commits/all/Ravisir21?color=00D4FF&style=flat-square)
-![Years](https://badges.strrl.dev/years/Ravisir21?color=00D4FF&style=flat-square)
+        <div class="section">
+            <h2>💡 Expertise</h2>
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-number gradient-text">AI/ML</div>
+                    <div class="stat-label">Deep Learning & Generative AI</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number gradient-text">Full-Stack</div>
+                    <div class="stat-label">React, Next.js, FastAPI, Flask</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number gradient-text">Cloud</div>
+                    <div class="stat-label">AWS, GCP, Azure Deployments</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number gradient-text">LLMOps</div>
+                    <div class="stat-label">Prompt Engineering & Fine-tuning</div>
+                </div>
+            </div>
+        </div>
 
-</div>
+        <div class="section">
+            <h2>🎯 Collaboration Interests</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Open Source</h3>
+                    <p>AI tools, frameworks, and libraries that push the boundaries of what's possible</p>
+                </div>
+                <div class="card">
+                    <h3>Fintech Innovation</h3>
+                    <p>Trading platforms, financial analysis tools, and blockchain applications</p>
+                </div>
+                <div class="card">
+                    <h3>Creative Tech</h3>
+                    <p>Design-driven applications that blend aesthetics with functionality</p>
+                </div>
+            </div>
+        </div>
 
----
+        <div class="section">
+            <h2>🔬 Currently Exploring</h2>
+            <div class="tech-stack">
+                <div class="tech-badge">Advanced LLMOps</div>
+                <div class="tech-badge">Algorithmic Trading</div>
+                <div class="tech-badge">Prompt Engineering</div>
+                <div class="tech-badge">Secure Backend Auditing</div>
+                <div class="tech-badge">Cloud-Native Architecture</div>
+                <div class="tech-badge">Real-time AI Systems</div>
+            </div>
+        </div>
 
-## 💡 **Recent Thoughts**
+        <div class="section">
+            <h2>💻 Technology Arsenal</h2>
+            <div class="tech-stack">
+                <div class="tech-badge">Python</div>
+                <div class="tech-badge">JavaScript/TypeScript</div>
+                <div class="tech-badge">React & Next.js</div>
+                <div class="tech-badge">PyTorch & TensorFlow</div>
+                <div class="tech-badge">FastAPI & Flask</div>
+                <div class="tech-badge">Node.js & Express</div>
+                <div class="tech-badge">MongoDB & PostgreSQL</div>
+                <div class="tech-badge">Docker & Kubernetes</div>
+                <div class="tech-badge">AWS & GCP</div>
+                <div class="tech-badge">Three.js</div>
+                <div class="tech-badge">TailwindCSS</div>
+                <div class="tech-badge">Git & CI/CD</div>
+            </div>
+        </div>
 
-> "Building intelligent systems requires both **mathematical rigor** and **creative intuition** – it's where art meets science in the digital realm."
+        <div class="section" style="text-align: center;">
+            <h2>⚡ Fun Fact</h2>
+            <p style="font-size: 1.2em; line-height: 1.8; color: #b0b0b0; max-width: 800px; margin: 30px auto;">
+                I thrive at the intersection of <span class="gradient-text" style="font-weight: 700;">technical rigor</span> 
+                and <span class="gradient-text" style="font-weight: 700;">creative design</span> — whether it's architecting 
+                a trading bot dashboard with real-time analytics or crafting an artist's portfolio that tells a compelling story.
+            </p>
+        </div>
+    </div>
 
-<div align="center">
+    <script>
+        // Create animated stars
+        const starsContainer = document.getElementById('stars');
+        for (let i = 0; i < 100; i++) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            star.style.width = Math.random() * 3 + 'px';
+            star.style.height = star.style.width;
+            star.style.left = Math.random() * 100 + '%';
+            star.style.top = Math.random() * 100 + '%';
+            star.style.animationDelay = Math.random() * 3 + 's';
+            starsContainer.appendChild(star);
+        }
 
-⭐ *Star my repositories if you find them interesting!* ⭐  
-🔄 *Updated dynamically with every commit* 🔄
+        // Animate cards on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
 
-</div>
+        document.querySelectorAll('.section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(40px)';
+            section.style.transition = 'all 0.8s ease-out';
+            observer.observe(section);
+        });
 
----
-
-*✨ Crafted with precision for the modern developer experience*  
-*⚡ Last Updated: ![Last Updated](https://img.shields.io/github/last-commit/Ravisir21/Ravisir21/main?color=00D4FF&label=Last%20Update&style=flat-square)*
+        // Add parallax effect to hero
+        document.addEventListener('mousemove', (e) => {
+            const hero = document.querySelector('.hero');
+            const x = (e.clientX / window.innerWidth - 0.5) * 20;
+            const y = (e.clientY / window.innerHeight - 0.5) * 20;
+            hero.style.transform = `translate(${x}px, ${y}px)`;
+        });
+    </script>
+</body>
+</html>
