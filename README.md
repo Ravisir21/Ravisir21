@@ -32,7 +32,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ravisir21)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/shree_raviprakash)
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=white)](#)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:myoffice1212.@gmail.com)
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
@@ -239,16 +239,16 @@ Learning:
 <br/><br/>
 
 ### 🏆 GitHub Trophies
-<img src="https://github-profile-trophy.vercel.app/?username=Ravisir21&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" width="100%"/>
+![](https://github-profile-trophy.vercel.app/?username=Ravisir21&theme=algolia&no-frame=false&no-bg=false&margin-w=4&row=1)
 
 <br/>
 
 ### 📈 Contribution Graph
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ravisir21&theme=tokyonight&hide_border=true&stroke=00FFFF&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF&background=0D1117" width="100%"/>
+![](https://github-contributor-stats.vercel.app/api?username=Ravisir21&limit=5&theme=tokyonight&combine_all_yearly_contributions=true)
 
 <br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ravisir21&theme=radical" width="100%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ravisir21&theme=tokyonight" width="100%"/>
 
 </div>
 
@@ -280,13 +280,48 @@ Learning:
 
 <div align="center">
 
-### 🐍 Watch My Contribution Snake Eat All The Commits!
+### 🐍 Contribution Snake Animation
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ravisir21/Ravisir21/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ravisir21/Ravisir21/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Ravisir21/Ravisir21/output/github-contribution-grid-snake.svg">
-</picture>
+![Snake animation](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg)
+
+<details>
+<summary>📌 Note: Snake Animation Setup (Click to expand)</summary>
+
+To enable the snake animation, you need to set up a GitHub Action:
+
+1. Create `.github/workflows/snake.yml` in your profile repository
+2. Add this code:
+
+```yaml
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: Ravisir21
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+3. Enable GitHub Actions in your repository settings
+4. Run the workflow manually or wait for it to run automatically
+</details>
 
 </div>
 
