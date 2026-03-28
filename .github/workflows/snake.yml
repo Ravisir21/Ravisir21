@@ -8,8 +8,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - uses: Platane/snk@v3
         with:
@@ -19,7 +21,7 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
 
       - name: Push Snake to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output   # branch where files will be pushed
           build_dir: dist         # directory containing generated files
